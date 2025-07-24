@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="description" content="BA por BA - Descubrí Buenos Aires como turista sin salir de la ciudad. Actividades por barrio, tips y más."/>
+  <title>BA por BA | Turismo local en Buenos Aires</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>BA por BA</h1>
+    <nav>
+      <ul>
+        <li><a href="#quienes-somos">Quiénes Somos</a></li>
+        <li><a href="#actividades">Actividades</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="quienes-somos">
+      <h2>Quiénes Somos</h2>
+      <p>En <strong>BA por BA</strong> creemos que no hace falta viajar lejos para redescubrir la ciudad. Diseñamos experiencias turísticas para vecinos que quieren sentirse turistas en su propio barrio.</p>
+    </section>
+
+    <section id="actividades">
+      <h2>Actividades por Barrio</h2>
+      <article>
+        <h3>Palermo</h3>
+        <p>Parques, museos y bares escondidos para recorrer uno de los barrios más vibrantes de la ciudad.</p>
+      </article>
+      <article>
+        <h3>Recoleta</h3>
+        <p>Arte, historia y arquitectura en un recorrido por plazas, ferias y cafés icónicos.</p>
+      </article>
+      <article>
+        <h3>San Telmo</h3>
+        <p>Anticuarios, tango y tradición en un paseo por calles empedradas y mercados.</p>
+      </article>
+    </section>
+
+    <section id="contacto">
+      <h2>Contacto</h2>
+      <form id="contactForm">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" required />
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required />
+
+        <label for="mensaje">Mensaje:</label>
+        <textarea id="mensaje" name="mensaje" required></textarea>
+
+        <button type="submit">Enviar</button>
+      </form>
+      <p id="formStatus"></p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 BA por BA. Todos los derechos reservados.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
