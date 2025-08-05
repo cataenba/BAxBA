@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Agencia de turismo local que promueve la Ciudad de Buenos Aires para sus propios habitantes. BAxBA: Bonito, Barato y Cercano." />
+  <meta name="keywords" content="turismo Buenos Aires, actividades barrios, BAxBA, turismo local, escapadas urbanas" />
+  <meta name="author" content="BAxBA Agencia Turística" />
+  <title>BAxBA - Turismo Local en Buenos Aires</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>BAxBA - Bonito, Barato y Cercano</h1>
+    <nav>
+      <ul>
+        <li><a href="#quienes-somos">Quiénes Somos</a></li>
+        <li><a href="#actividades">Actividades por Barrio</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="quienes-somos">
+      <h2>Quiénes Somos</h2>
+      <p>Somos una agencia turística local dedicada a redescubrir Buenos Aires desde una mirada cercana. Creemos que no hace falta viajar lejos para vivir nuevas experiencias. Con BAxBA te invitamos a explorar la ciudad como si fueras turista, pero sin salir de tu barrio.</p>
+    </section>
+
+    <section id="actividades">
+      <h2>Actividades por Barrio</h2>
+      <article>
+        <h3>Palermo</h3>
+        <ul>
+          <li>Feria de Plaza Serrano</li>
+          <li>Recorrido por el Jardín Botánico</li>
+          <li>Tour de murales en Palermo Soho</li>
+        </ul>
+      </article>
+      <article>
+        <h3>Recoleta</h3>
+        <ul>
+          <li>Visita al Cementerio de Recoleta</li>
+          <li>Paseo cultural en el Centro Cultural Recoleta</li>
+          <li>Picnic en Plaza Francia</li>
+        </ul>
+      </article>
+      <article>
+        <h3>San Telmo</h3>
+        <ul>
+          <li>Feria de antigüedades</li>
+          <li>Tour histórico por casonas antiguas</li>
+          <li>Muestra de tango al aire libre</li>
+        </ul>
+      </article>
+    </section>
+
+    <section id="contacto">
+      <h2>Contacto</h2>
+      <form id="formulario-contacto">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" required />
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required />
+
+        <label for="mensaje">Mensaje:</label>
+        <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+
+        <button type="submit">Enviar</button>
+      </form>
+      <p id="mensaje-exito" class="oculto">Gracias por tu mensaje. ¡Te contactaremos pronto!</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 BAxBA Agencia Turística - Hecho con amor en Buenos Aires</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
